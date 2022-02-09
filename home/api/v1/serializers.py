@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Hello, HomePage, CustomText
+from home.models import CustomText, Hello, HomePage
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings
